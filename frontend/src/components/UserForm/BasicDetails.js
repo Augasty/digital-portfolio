@@ -15,6 +15,11 @@ export default function BasicDetails() {
     language: "",
   });
 
+
+  // need another useeffect that will fetch data for existing user when the page is loaded. 
+  // anupam da to create the api to get data of a single user. - sayak 8.9.23
+
+  
   const handleSubmit = ()=>{}
   useEffect(() => {
     console.log(formData);
